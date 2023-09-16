@@ -6,3 +6,4 @@
 |----|----|----|
 |1|Verify Account|[Click here ](https://ahmedmohamedag.github.io/tasks/verify_account/)|
 |2|Calculator|[Click here ](https://ahmedmohamedag.github.io/tasks/calculator/)|
+|2|Copy text|[Click here ](https://ahmedmohamedag.github.io/tasks/copy-text/)|
