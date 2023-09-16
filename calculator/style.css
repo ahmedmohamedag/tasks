@@ -1,0 +1,113 @@
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box
+}
+
+html {
+  font-size: 10px
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#969295, rgba(184, 179, 184, .867), #e1e0e2)
+}
+
+.calc {
+  border: 1px solid #2e2d2d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px
+}
+
+.calc .inpute #view {
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #2e2d2d;
+  margin-bottom: 20px;
+  font-size: 2rem
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+strong,
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #2e2d2d;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid transparent;
+  transition: color .5s ease, background-color .5s;
+  -webkit-transition: color .5s ease, background-color .5s;
+  -moz-transition: color .5s ease, background-color .5s;
+  -ms-transition: color .5s ease, background-color .5s;
+  -o-transition: color .5s ease, background-color .5s
+}
+
+strong:hover,
+ul li:hover {
+  background-color: transparent;
+  color: #2e2d2d;
+  border: 1px solid #2e2d2d
+}
+
+ul strong#equal {
+  grid-row-end: 6;
+  grid-row-start: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 85%
+}
+
+ul strong#Clear {
+  background-color: #2e2d2d;
+  color: #fff;
+  border: 1px solid #2e2d2d;
+  font-weight: 600;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 85%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px
+}
+
+ul strong#Clear:hover {
+  background-color: transparent;
+  color: #df1a1a;
+  border: 1px solid #c22727
+}
