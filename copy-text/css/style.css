@@ -1,0 +1,114 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* header */
+header{
+  position: fixed;
+  width: 100%;
+  background-color:rgb(121, 123, 126);
+  top: 0;
+}
+header nav{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px ;
+}
+a,i{
+  transition: ease .5s;
+  -webkit-transition: ease .5s;
+  -moz-transition: ease .5s;
+  -ms-transition: ease .5s;
+  -o-transition: ease .5s;
+}
+header nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+header nav #logo:hover{
+  color:rgb(14, 235, 235);
+}
+header nav .navitem a{
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  /* background-color:red; */
+}
+
+header nav .navitem a:hover i{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+header nav .navitem a:hover #gi
+{
+  color: rgb(40, 41, 41);
+}
+header nav .navitem a:hover #ln
+{
+  color: rgb(12, 210, 236);
+}
+
+
+/* header  */
+.copy-text{
+  padding: 2px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}.copy-text #inp{
+  padding: 10px 20px ;
+  border: none;
+  border-bottom: 2px solid rgb(129, 121, 121);
+  outline: none;
+  width: 75%;
+
+  
+}
+ img#btn{
+  background-color:transparent;
+  font-size: 18px;
+  border: 1px solid aqua;
+  padding: 5px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  position: relative;
+  width: 60px;
+  
+  
+}
+
+#testCopy{
+  margin-top: 50px;
+  width: 80%;
+  height: 30%;
+  outline: none;
+  padding: 20px;
+  border:1px solid gainsboro;
+  font-size: 18px;
+  
+}
