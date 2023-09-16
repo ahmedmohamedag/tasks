@@ -1,0 +1,56 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.copy-text{
+  padding: 2px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}.copy-text #inp{
+  padding: 10px 20px ;
+  border: none;
+  border-bottom: 2px solid rgb(129, 121, 121);
+  outline: none;
+  width: 75%;
+
+  
+}
+ img#btn{
+  background-color:transparent;
+  font-size: 18px;
+  border: 1px solid aqua;
+  padding: 5px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  position: relative;
+  width: 60px;
+  
+  
+}
+
+#testCopy{
+  margin-top: 50px;
+  width: 80%;
+  height: 30%;
+  outline: none;
+  padding: 20px;
+  border:1px solid gainsboro;
+  font-size: 18px;
+  
+}
